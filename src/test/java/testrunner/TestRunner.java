@@ -17,7 +17,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 	    plugin = {"pretty","html:reports/myreport.html","json:reports/myreports.json",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 				},
-	    //tags = "@test16",
+	    tags = "@test1",
 		//tags="@test1 and @test3 and not @test2"
 		//tags="@test15,@test14" 
 		publish=true
